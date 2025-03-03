@@ -7,14 +7,13 @@ export default {
   title: 'Components/ActionButton',
   component: ActionButton,
   argTypes: {
-    // ... argTypes
   },
 };
 
 const Template = (args) => <ActionButton {...args} />;
 
 export const AllVariations = () => (
-    <div className={styles.container}> {/* Add the container */}
+    <div className={styles.container}> 
       {/* Primary Style */}
       <ActionButton style="primary" size="small">Primary Small</ActionButton>
       <ActionButton style="primary" size="medium">Primary Medium</ActionButton>
